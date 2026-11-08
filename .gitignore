@@ -1,24 +1,10 @@
-# Virtual environment
 .venv/
-
-# Python cache
 __pycache__/
 *.pyc
 
-# Jupyter
-.ipynb_checkpoints/
-
-# IDE
-.vscode/
+# Audio files
+ope4/audio/*.mp4
+ope4/audio/*.mp3
 
 # Generated outputs
-OPE10/output/*
-OPE11/output/*
-
-# Local audio files (avoid committing copyrighted audio)
-OPE10/audio/*
-OPE11/audio/*
-
-# Preserve empty directories
-!OPE10/audio/.gitkeep
-!OPE11/audio/.gitkeep
+ope4/output/*
